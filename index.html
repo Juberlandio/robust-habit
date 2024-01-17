@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robust Habit</title>
-    <meta name="description" content="Desenvolvedor Front End e UX/UI Designer">
-    <link rel="icon" href="./media/svg/favicon.svg" type="image/svg+x">
-    <link rel="preload" href="./css/style.css" as="style">
-    <link rel="stylesheet" href="./css/style.css">
-  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Outline&family=Montserrat:wght@500&display=swap" rel="stylesheet">
-  </head>
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academia</title>
+  <meta name="description" content="Desenvolvedor Front End e UX/UI Designer">
+  <link rel="icon" href="./media/svg/favicon.svg" type="image/svg+x">
+  <link rel="preload" href="./css/style.css" as="style">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Outline&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <script>document.documentElement.className += ' js';</script>
+
+</head>
 <body>
-  <header class="topo espacamento-padrao">           
-    <nav class="nav-bar container animation">
+  <header class="topo">           
+    <nav class="nav-bar container cor-0 font-1-b">
         <div class="container-logo">
             <img src="media/img/logo.png" alt="Logo Robust Habit">
         </div>
@@ -33,34 +37,35 @@
                 <a href="#contact">CONTATOS</a>
             </LI>
             <li class="menu-item">
-                <a href="#" style="width: 100%;">REGISTRE-SE</a>
+                <a href="#">REGISTRE-SE</a>
             </li>
         </ul>
     </nav>
-    <nav class="mobile-navbar container  animation">
+    <nav class="mobile-navbar container">
         <div class="container-logo">
             <img src="media/img/logo.png" alt="Logo Robust Habit">
         </div>
         <div id="menu-oculto" class="mobile-menu" onclick="abrir()">
             <div class="primeiro"></div>
             <div class="segundo"></div>
+            <div class="terceiro"></div>
         </div> 
     </nav>
-    <ul id="menu-items" class="menu-items animation">
+    <ul id="menu-items" class="menu-items cor-0 font-1-b">
         <li class="menu-item">
-            <a onclick="abrir()" href="#about">SOBRE</a>
+            <a href="#about">SOBRE</a>
         </li>
         <li class="menu-item">
-            <a onclick="abrir()" href="#services">SERVIÇOS</a>
+            <a href="#services">SERVIÇOS</a>
         </li>
         <li class="menu-item">
-            <a onclick="abrir()" href="#prices">PREÇOS</a>
+            <a href="#prices">PREÇOS</a>
         </li>
         <LI class="menu-item">
-            <a onclick="abrir()" href="#contact">CONTATO</a>
+            <a href="#contact">CONTATO</a>
         </LI>
         <li class="menu-item">
-            <a onclick="abrir()" href="#">REGISTRE-SE</a>
+            <a href="#">REGISTRE-SE</a>
         </li>
     </ul>
 </header>
