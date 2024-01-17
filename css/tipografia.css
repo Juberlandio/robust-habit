@@ -4,21 +4,3 @@
 .font-2-xl {
   font: 600 5.125rem/1.2 "Bungee Outline", sans-serif;
 }
-
-
-
-.font-s {
-  font: 500 1rem/1.1 "Montserrat", sans-serif;
-}
-.font-l {
-  font: 500 1rem/1.56 "Montserrat", sans-serif;
-  letter-spacing: 0.24px
-}
-.font-xl {
-  font: 500 1.25rem/0.83 "Montserrat", sans-serif;
-  letter-spacing: 0.3px;
-}
-.font-xxl {
-  font: 700 6.25rem/0.83 "Montserrat", sans-serif;
-  letter-spacing: 1.5px; 
-}  
