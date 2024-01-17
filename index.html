@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Os Vingadores</title>
+    <title>Robust Habit</title>
     <meta name="description" content="Desenvolvedor Front End e UX/UI Designer">
     <link rel="icon" href="./media/svg/favicon.svg" type="image/svg+x">
     <link rel="preload" href="./css/style.css" as="style">
@@ -14,6 +14,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Outline&family=Montserrat:wght@500&display=swap" rel="stylesheet">
   </head>
 <body>
+  <header class="topo espacamento-padrao">           
+    <nav class="nav-bar container animation">
+        <div class="container-logo">
+            <img src="media/img/logo.png" alt="Logo Robust Habit">
+        </div>
+        <ul class="menu">
+            <li class="menu-item">
+                <a href="#about">SOBRE</a>
+            </li>
+            <li class="menu-item">
+                <a href="#services">SERVIÇOS</a>
+            </li>
+            <li class="menu-item">
+                <a href="#prices">PREÇOS</a>
+            </li>
+            <LI class="menu-item">
+                <a href="#contact">CONTATOS</a>
+            </LI>
+            <li class="menu-item">
+                <a href="#" style="width: 100%;">REGISTRE-SE</a>
+            </li>
+        </ul>
+    </nav>
+    <nav class="mobile-navbar container  animation">
+        <div class="container-logo">
+            <img src="media/img/logo.png" alt="Logo Robust Habit">
+        </div>
+        <div id="menu-oculto" class="mobile-menu" onclick="abrir()">
+            <div class="primeiro"></div>
+            <div class="segundo"></div>
+        </div> 
+    </nav>
+    <ul id="menu-items" class="menu-items animation">
+        <li class="menu-item">
+            <a onclick="abrir()" href="#about">SOBRE</a>
+        </li>
+        <li class="menu-item">
+            <a onclick="abrir()" href="#services">SERVIÇOS</a>
+        </li>
+        <li class="menu-item">
+            <a onclick="abrir()" href="#prices">PREÇOS</a>
+        </li>
+        <LI class="menu-item">
+            <a onclick="abrir()" href="#contact">CONTATO</a>
+        </LI>
+        <li class="menu-item">
+            <a onclick="abrir()" href="#">REGISTRE-SE</a>
+        </li>
+    </ul>
+</header>
 <script src="script.js"></script>
 </body>
 </html>
