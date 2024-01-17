@@ -86,10 +86,10 @@
     clip-path: polygon(82% 0, 100% 50%, 100% 100%, 0 100%, 0 0);
 }
     .menu-item:last-of-type a:hover{
-        transform: scale(1.1);
+    transform: scale(1.1);
 }
     .nav-bar{
-        display: none;
+    display: none;
 }
     .mobile-navbar{
     position: relative;
@@ -116,7 +116,7 @@
     .menu-animacao .segundo {
     transform: rotate(-45deg) translate(-1px, -5px);
 }
-    .menu-animacao .terceiro {
-        display: none;
+    .menu-animacao .terceiro {  
+    display: none;
 }
 }
