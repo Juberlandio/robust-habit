@@ -3,27 +3,56 @@
 
 <head>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Academia</title>
-  <meta name="description" content="Desenvolvedor Front End e UX/UI Designer">
-  <link rel="icon" href="./media/svg/favicon.svg" type="image/svg+x">
-  <link rel="preload" href="./css/style.css" as="style">
-  <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia</title>
+    <meta name="description" content="Desenvolvedor Front End e UX/UI Designer">
+    <link rel="icon" href="./media/svg/favicon.svg" type="image/svg+x">
+    <link rel="preload" href="./css/style.css" as="style">
+    <link rel="stylesheet" href="./css/style.css">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Outline&family=Montserrat:wght@500&display=swap" rel="stylesheet">
-  <script>document.documentElement.className += ' js';</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Outline&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <script>document.documentElement.className += ' js';</script>
 
 </head>
+
 <body>
-  <header class="topo">           
-    <nav class="nav-bar container cor-0 font-1-b">
-        <div class="container-logo">
-            <img src="media/img/logo.png" alt="Logo Robust Habit">
-        </div>
-        <ul class="menu">
+    <header class="topo">
+        <nav class="nav-bar container cor-0 font-1-b">
+            <div class="container-logo">
+                <img src="media/img/logo.png" alt="Logo Robust Habit">
+            </div>
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="#about">SOBRE</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#services">SERVIÇOS</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#prices">PREÇOS</a>
+                </li>
+                <LI class="menu-item">
+                    <a href="#contact">CONTATOS</a>
+                </LI>
+                <li class="menu-item">
+                    <a href="#">REGISTRE-SE</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="mobile-navbar container">
+            <div class="container-logo">
+                <img src="media/img/logo.png" alt="Logo Robust Habit">
+            </div>
+            <div id="menu-oculto" class="mobile-menu" onclick="abrir()">
+                <div class="primeiro"></div>
+                <div class="segundo"></div>
+                <div class="terceiro"></div>
+            </div>
+        </nav>
+        <ul id="menu-items" class="menu-items cor-0 font-1-b">
             <li class="menu-item">
                 <a href="#about">SOBRE</a>
             </li>
@@ -34,42 +63,44 @@
                 <a href="#prices">PREÇOS</a>
             </li>
             <LI class="menu-item">
-                <a href="#contact">CONTATOS</a>
+                <a href="#contact">CONTATO</a>
             </LI>
             <li class="menu-item">
                 <a href="#">REGISTRE-SE</a>
             </li>
         </ul>
-    </nav>
-    <nav class="mobile-navbar container">
-        <div class="container-logo">
-            <img src="media/img/logo.png" alt="Logo Robust Habit">
+    </header>
+    <section class="introducao-bg">
+        <div class="introducao">
+            <div class="informacao">
+                <h1>AQUI NÃO SE <br> <span>TREINA FOFO</span></h1>
+                <p>Transforme-se na nossa academia! Oferecemos equipamentos modernos, instrutores qualificados e aulas para todos os níveis. Alcance seus objetivos fitness conosco. Experimente hoje!</p>
+                <li>
+                    <a href="#">Começar</a>
+                </li>
+            </div>
+            <div class="imagem"><img src="media/img/homem_treinando 1.png" alt=""></div>
         </div>
-        <div id="menu-oculto" class="mobile-menu" onclick="abrir()">
-            <div class="primeiro"></div>
-            <div class="segundo"></div>
-            <div class="terceiro"></div>
-        </div> 
-    </nav>
-    <ul id="menu-items" class="menu-items cor-0 font-1-b">
-        <li class="menu-item">
-            <a href="#about">SOBRE</a>
-        </li>
-        <li class="menu-item">
-            <a href="#services">SERVIÇOS</a>
-        </li>
-        <li class="menu-item">
-            <a href="#prices">PREÇOS</a>
-        </li>
-        <LI class="menu-item">
-            <a href="#contact">CONTATO</a>
-        </LI>
-        <li class="menu-item">
-            <a href="#">REGISTRE-SE</a>
-        </li>
-    </ul>
-</header>
+    </section>
+    <section class="letreiro-bg">
+        <div class="letreiro">
+            <p>CONSULTORIA INDIVIDUAL</p>
+            <img src="media/img/halter.png" alt="">
+            <p>+20 PROFESSORES</p>
+            <img src="media/img/halter.png" alt="">
+            <p>TREINE DA SUA FORMA</p>
+            <img src="media/img/halter.png" alt="">
+            <p>+15 UNDIDADES</p>
+            <img src="media/img/halter.png" alt="">
+            <p>MONTAMOS SEU TREINO</p>
+        </div>
+    </section>
+    <section>
+        <h1>Nossos <span>Diferenciais</span></h1>
+    </section>
 
-<script src="js/script.js"></script>
+
+    <script src="js/script.js"></script>
 </body>
+
 </html>
