@@ -44,7 +44,7 @@
 .introducao {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
-  padding-top: 76px;
+  padding-top: 75px;
 }
 .informacao {
   padding-top: 90px;
