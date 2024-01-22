@@ -12,7 +12,7 @@
 .container-cores{
   position: absolute;
   top: 0;
-  right: 300px;
+  right: 340px;
   transform: translate(89px, 0);
 }
 .cor-primaria{
@@ -40,24 +40,27 @@
   filter: drop-shadow(-5px 0px 10px rgba(0, 0, 0, 0.25));
   transform: translate(-300px, 0);
 }
-
 .introducao {
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 0px;
   padding-top: 75px;
 }
 .informacao {
-  padding-top: 90px;
+  padding-top: 140px;
   z-index: 2;
 }
 .imagem-introducao {
   z-index: 2;
   margin: 0px;
 }
+.paragrafo-introducao {
+  margin-top: 10px;
+}
 .item-introducao {
   display: inline-block;
   background: var(--cor-11);
-  margin-top: 20px;
+  margin-top: 40px;
   width: 200px;
   height: 56px;
   clip-path: polygon(0 0, 84% 0, 100% 38%, 100% 100%, 0 100%, 0% 50%);
