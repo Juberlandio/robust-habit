@@ -2,8 +2,10 @@ html,
 body {
   margin: 0px;
   padding: 0px;
-  scroll-behavior: smooth;
+
   background: var(--cor-6);
+  overflow-x: hidden;
+ 
 }
 h1,
 h2,
@@ -12,9 +14,11 @@ ul,
 p{
   margin: 0px;
 }
-*{
+*
+{
   box-sizing: border-box;
 }
+
 ul {
   margin: 0px;
   padding: 0px;
