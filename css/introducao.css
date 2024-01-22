@@ -1,39 +1,6 @@
 .introducao-bg {
   background: var(--cor-p1);
 }
-.container-cores{
-  position: absolute;
-  top: 0;
-  right: 0;
-  transform: translate(89px, 0);
-}
-.cor-primaria{
-  width: 686px;
-  position: absolute;
-  right: 0;
-  border-left: 470px solid transparent;
-  border-bottom: 702px solid #FF5757;
-  filter: drop-shadow(-5px 0px 10px rgba(0, 0, 0, 0.25));
-}
-.cor-secundaria{
-  position: absolute;
-  right: 0;
-  width: 480px;
-  border-left: 334px solid transparent;
-  border-bottom: 702px solid #FF3939;
-  filter: drop-shadow(-5px 0px 10px rgba(0, 0, 0, 0.25));
-}
-.cor-terciaria{
-  width: 100vw;
-  position: absolute;
-  z-index: 1;
-  border-left: 155px solid transparent;
-  border-bottom: 702px solid #FF0202;
-  filter: drop-shadow(-5px 0px 10px rgba(0, 0, 0, 0.25));
-  transform: translate(-300px, 0);
-}
-
-
 .introducao {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
@@ -60,4 +27,49 @@
 }
 .item-introducao img {
   margin-left: 10px;
+}
+/* Estilos da Primeira Seção */
+.box-apresentacao{
+    width: 100%;
+    height: 702px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cor-principal{
+    position: relative;
+    top: 0;
+    background-color: #A03333;
+    z-index: 0;
+}
+.box-apresentacao .container-cores{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(89px, 0);
+}
+.box-apresentacao .cor-primaria{
+    width: 686px;
+    position: absolute;
+    right: 0;
+    border-left: 470px solid transparent;
+    border-bottom: 702px solid #FF5757;
+    filter: drop-shadow(-5px 0px 10px rgba(0, 0, 0, 0.25));
+}
+.box-apresentacao .cor-secundaria{
+    position: absolute;
+    right: 0;
+    width: 480px;
+    border-left: 334px solid transparent;
+    border-bottom: 702px solid #FF3939;
+    filter: drop-shadow(-5px 0px 10px rgba(0, 0, 0, 0.25));
+}
+.box-apresentacao .cor-terciaria{
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
+    border-left: 155px solid transparent;
+    border-bottom: 702px solid #FF0202;
+    filter: drop-shadow(-5px 0px 10px rgba(0, 0, 0, 0.25));
+    transform: translate(-300px, 0);
 }
