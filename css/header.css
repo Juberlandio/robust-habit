@@ -105,7 +105,7 @@
     .mobile-menu div{
     transition-duration: 0.5s;
     margin: 8px 0px;
-    width: 32px;
+    width: 30px;
     height: 2px;
     background-color: #fff;
 }
@@ -115,7 +115,6 @@
     .menu-animacao .segundo {
     transform: rotate(-45deg) translate(-1px, -5px);
 }
-    .menu-animacao .terceiro {  
-    display: none;
-}
+    /* .menu-animacao .terceiro {  
+    display: none; */
 }
