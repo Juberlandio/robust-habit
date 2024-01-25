@@ -18,3 +18,25 @@
 .diferenciais p {
     padding-top: 15px;
 }
+.item-introducao {
+    display: inline-block;
+    background: var(--cor-11);
+    margin-top: 40px;
+    width: 187px;
+    height: 54px;
+    clip-path: polygon(0 0, 84% 0, 100% 38%, 100% 100%, 0 100%, 0% 50%);
+  }
+  .item-introducao a {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 56px;
+  }
+  .item-introducao-diferenciais img {
+    margin-left: 10px;
+  }
+.item-ul {
+    width: 0px;
+}
