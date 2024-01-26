@@ -1,25 +1,25 @@
 /* Letreiro */
 .letreiro-bg {
-  background: var(--cor-11);
+background: var(--cor-11);
 }
 .letreiro {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  width: 1600px;
-  height: 56px;
-  animation: scrollLetreiro 20s linear infinite;
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+width: 1600px;
+height: 56px;
+animation: scrollLetreiro 20s linear infinite;
 }
 @keyframes scrollLetreiro {
-  from {
-    transform: translateX(100vw);
-  }
-  to {
-    transform: translateX(-100%);
-  }
+from {
+  transform: translateX(100vw);
+}
+to {
+  transform: translateX(-100%);
+}
 }   
 .letreiro img{
-  padding-right: 40px;
-  padding-left: 40px;
+padding-right: 40px;
+padding-left: 40px;
 }
