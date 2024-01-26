@@ -118,3 +118,10 @@ transform: rotate(-45deg) translate(-1px, -5px);
 /* .menu-animacao .terceiro {  
 display: none; */
 }
+@media (max-width: 1278px){
+  .menu .menu-item:last-of-type:hover{
+      opacity: 1;
+      background-color: #FF0202;
+      transform: scale(1.1);
+}
+}
