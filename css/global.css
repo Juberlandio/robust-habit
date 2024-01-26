@@ -47,3 +47,134 @@ background-color: transparent;
 text-align: center;
 margin: 0 auto;
 }
+
+/* Estilos do Topo */
+.mobile-navbar, .menu-items{
+    display: none;
+}
+.topo{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.ativo{
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 0;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .menu-item{
+    font-size: 24px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 30px;
+}
+.menu .menu-item:first-child{
+    margin-left: 0;
+}
+.menu .menu-item:last-child{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #222;
+    width: 152px;
+    height: 44px;
+    clip-path: polygon(82% 0, 100% 50%, 100% 100%, 0 100%, 0 0);
+    transition: transform 0.1s ease;
+    transform-origin: left center;
+}
+.menu .menu-item:hover{
+    opacity: 0.5;
+}
+.menu .menu-item:last-of-type:hover{
+    opacity: 1;
+    background-color: #A03333;
+    transform: scale(1.1);
+}
+
+/* Estilos Para Telas de Até 768px */
+@media only screen and (max-width:768px){
+    .box-apresentacao{
+        height: calc(100vh - 56px);
+    }
+    main{
+        overflow-x: hidden;
+    }
+    .aberto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        animation-name: rotacionar;
+        animation-duration: 1s;
+        background-color: #222;
+        height: 100vh;
+        list-style: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        z-index: 0;
+        padding-top: 100px;
+    }
+    .menu-item{
+        margin-bottom: 50px;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 24px;
+    }
+    .menu-item:hover{
+        opacity: 0.5;
+    }
+    .menu-item:last-of-type a{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        margin: 30px;
+        padding: 10px 20px;
+        background-color: #FF0202;
+        clip-path: polygon(82% 0, 100% 50%, 100% 100%, 0 100%, 0 0);
+    }
+    .menu-item:last-of-type a:hover{
+        transform: scale(1.1);
+    }
+    .nav-bar{
+        display: none;
+    }
+    .mobile-navbar{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 80px;
+    }
+    .mobile-navbar .container-logo{
+    width: 80%;
+    }
+    .mobile-menu div{
+    transition-duration: 0.5s;
+    margin: 8px 0px;
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    }
+    .menu-animacao .primeiro {
+    transform: rotate(45deg) translate(3px, 7px);
+    }
+    .menu-animacao .segundo {
+    transform: rotate(-45deg) translate(-1px, -5px);
+    }
+    .esconder{
+    display: none;
+    }
+}    

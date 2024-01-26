@@ -1,10 +1,9 @@
-// Função para o menu mobile
+// Função para o menu mobile - esconder as seções para a barra de pesquisa não fechar e bugar o Menu Mobile
 
 let Main = document.querySelector('main')
 let Footer = document.querySelector('footer')
 let menuOculto = document.getElementById('menu-oculto')
 let menuMobile = document.getElementById('menu-items')
-
 
 function abrir(){
         menuMobile.classList.toggle('aberto')
@@ -12,8 +11,8 @@ function abrir(){
         Main.classList.toggle('esconder')
         Footer.classList.toggle('esconder')
 }
-////////////////////
 
+function animacaoMenuFixed() {
 const menu = document.querySelector('header');
 
 function ativarScroll(){
@@ -21,3 +20,5 @@ function ativarScroll(){
 }
 
 window.addEventListener('scroll', ativarScroll)
+}
+animacaoMenuFixed();
