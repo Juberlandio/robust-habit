@@ -115,12 +115,19 @@ transform: rotate(45deg) translate(3px, 7px);
 .menu-animacao .segundo {
 transform: rotate(-45deg) translate(-1px, -5px);
 }
+/* .menu-animacao .primeiro {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+.menu-animacao .segundo {
+  opacity: 0;
+}
+.menu-animacao .terceiro {
+  transform: rotate(45deg) translate(-5px, -7px);
+} */
 .esconder{
   display: none;
   }
 }    
-/* .menu-animacao .terceiro {  
-display: none; */
 
 @media (max-width: 1278px){
   .menu .menu-item:last-of-type:hover{
