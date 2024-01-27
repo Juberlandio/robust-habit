@@ -111,9 +111,9 @@ transform: translate(-300px, 0);
 @media (max-width: 600px) {
 
 .introducao .informacao h1 {
-  font: 400 2.75rem/1 "Bungee Outline", sans-serif;
+  font: 400 2.220rem/1 "Bungee Outline", sans-serif;
 }
 .introducao .informacao h1 span {
-  font: 400 5.125rem/1 "Bebas Neue", sans-serif;
+  font: 400 4rem/1 "Bebas Neue", sans-serif;
 }
 }
