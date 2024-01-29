@@ -1,0 +1,111 @@
+.planos-bg {
+  background: var(--cor-11);
+}
+.titulo-planos h1{
+  text-align: center;
+  padding-top: 56px;
+  padding-bottom: 90px;
+  text-transform: uppercase;
+}
+.planos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0 auto;
+  padding-bottom: 75px;
+}
+.planos img {
+  width: 398px;
+  height: 168px;
+}
+.planos h2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 23px;
+  width: 398px;
+  height: 72px;
+  background-color: var(--cor-13);
+}
+.planos .planos-preco {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  width: 398px;
+  height: 83px;
+  background-color: var(--cor-s1);
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.planos .planos-preco .border {
+  width: 117px;
+  height: 39px;
+  border: 1px solid var(--cor-13);
+  border-radius: 20px;
+}
+.planos .planos-preco .border p {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 117px;
+  height: 39px;
+  text-transform: uppercase;
+}
+.planos .planos-preco .preco{
+  display: block;
+  padding-top: 12px;
+}
+.planos .treino-2 .item-central {
+  width: 398px;
+  height: 40px;
+  background: var(--cor-13);
+}
+.planos .treino-2 .item-central p{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 398px;
+  height: 40px;
+  text-transform: uppercase;
+}
+@media (max-width: 600px) {
+.titulo-planos h1{
+  font: 500 3rem/1.07 "Bebas Neue", sans-serif;
+  padding-top: 103px;
+  padding-bottom: 89px;
+}
+.planos img {
+  width: 310px;
+  height: 168px;
+}
+.planos h2 {
+  width: 310px;
+  height: 72px;
+  padding-left: 15.08;
+}
+.planos .planos-preco {
+  width: 310px;
+  height: 83px; 
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.planos .planos-preco .preco{
+  display: block;
+  padding-top: 12px;
+}
+.planos .treino-2 .item-central {
+  width: 310px;
+  height: 40px;
+  background: var(--cor-13);
+}
+.planos .treino-2 .item-central p{
+  width: 310px;
+  height: 40px;
+}
+}
