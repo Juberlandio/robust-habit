@@ -34,7 +34,7 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 0px;
   width: 398px;
   height: 83px;
   background-color: var(--cor-s1);
@@ -81,16 +81,16 @@
   padding-bottom: 89px;
 }
 .planos img {
-  width: 310px;
+  width: auto;
   height: 168px;
 }
 .planos h2 {
-  width: 310px;
+  width: auto;
   height: 72px;
   padding-left: 15.08;
 }
 .planos .planos-preco {
-  width: 310px;
+  width: auto;
   height: 83px; 
   padding-left: 10px;
   padding-right: 10px;
@@ -100,12 +100,12 @@
   padding-top: 12px;
 }
 .planos .treino-2 .item-central {
-  width: 310px;
+  width: auto;
   height: 40px;
   background: var(--cor-13);
 }
 .planos .treino-2 .item-central p{
-  width: 310px;
+  width: auto;
   height: 40px;
 }
 }
