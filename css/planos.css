@@ -41,6 +41,20 @@
   padding-left: 25px;
   padding-right: 25px;
 }
+.animacao-cores{
+  animation: cardColor 1s infinite;
+}
+@keyframes cardColor {
+  0%{
+      background-color: #000000;
+  }
+  50%{
+      background-color: #FF0202;
+  }
+  100%{
+      background-color: #000000;
+  }
+}
 .planos .planos-preco .border {
   width: 117px;
   height: 39px;
