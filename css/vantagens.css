@@ -7,8 +7,9 @@ grid-template-columns: 1fr 2fr;
 gap: 30px;
 height: 686px;
 }
-.vantagens img {
-padding-top: 104px;
+.vantagens .imagem {
+padding-top: 135.90px;
+z-index: 5;
 }
 .vantagens .titulo-vantagens {
 padding-top: 164px;
@@ -73,12 +74,12 @@ filter: drop-shadow(1px 8px 6px #000);
 clip-path: polygon(25% 0, 50% 52%, 100% 100%, 0 100%, 0 0);
 z-index: 2;
 }
-@media (max-width: 1150px) {
+@media (max-width: 1315px) {
 .vantagens {
 grid-template-columns: 1fr;
 }
-.vantagens img {
-display: none;
+.vantagens .imagem {
+padding-top: 0px;
 }
 .vantagens .titulo-vantagens {
 padding-top: 110px;
@@ -90,6 +91,18 @@ justify-content: center;
 }
 .vantagens .vantangens-1{
 text-align: center;
+}
+.vantagens img {
+display: none;
+}
+.vantagens .cor-primaria{
+border-bottom: 0px solid #FF3939;
+}
+.vantagens .cor-secundaria{
+border-bottom: 0px solid #FF0202;
+}
+.vantagens .cor-terciaria{
+border-bottom: 0px solid #FF5757;
 }
 }
 @media (max-width: 730px) {
@@ -115,14 +128,5 @@ gap: 80px;
 .vantagens .item-vantagens {
 flex-wrap: wrap;
 justify-content: center;
-}
-.vantagens .cor-primaria{
-border-bottom: 0px solid #FF3939;
-}
-.vantagens .cor-secundaria{
-border-bottom: 0px solid #FF0202;
-}
-.vantagens .cor-terciaria{
-border-bottom: 0px solid #FF5757;
 }
 }
