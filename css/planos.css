@@ -75,6 +75,7 @@
   padding-top: 12px;
 }
 .planos .treino-2 .item-central {
+  text-align: center;
   width: 398px;
   height: 40px;
   background: var(--cor-13);

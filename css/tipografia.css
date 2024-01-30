@@ -31,8 +31,11 @@
 .font-3-xm {
   font: 500 1.2rem/0.83 "Montserrat", sans-serif;
 }
+.font-3-mm {
+  font: 500 1.125rem/1.05 "Montserrat", sans-serif;
+}
 .font-3-m {
-  font: 500 0.93rem/1.26 "Montserrat", sans-serif;
+  font: 500 0.93rem/1 "Montserrat", sans-serif;
 }
 .font-1-xs {
   font: 500 1rem/1.125 "Bebas Neue", sans-serif;
