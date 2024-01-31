@@ -2,9 +2,10 @@ html,
 body {
 margin: 0px;
 padding: 0px;
-background: var(--cor-6);
+background: var(--cor-5);
 overflow-x: hidden;
 }
+
 h1,
 h2,
 h3,
@@ -12,6 +13,7 @@ ul,
 p{
 margin: 0px;
 }
+
 *
 {
 box-sizing: border-box;
@@ -22,16 +24,19 @@ margin: 0px;
 padding: 0px;
 list-style: none;
 }
+
 a {   
 font: inherit;
 color: inherit;
 text-decoration: none;
 }
+
 img {
 height: auto;
 display: block;
 max-width: 100%;
 }
+
 ::-webkit-scrollbar {
 width: 7px;
 background-color: rgb(35, 38, 41);
