@@ -43,8 +43,4 @@ border-radius: 30px;
 ::-webkit-scrollbar-track {
 background-color: transparent;
 }
-.center {
-text-align: center;
-margin: 0 auto;
-}
 

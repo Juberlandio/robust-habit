@@ -1,0 +1,104 @@
+.contato-bg {
+background: var(--cor-11);
+}
+.contato {
+display: grid;
+grid-template-columns: 3fr 1fr;
+gap: 30px;
+justify-content: center;
+align-items: center;
+}
+.container-conteudo {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.contato .container-conteudo p{
+padding-top: 30px;
+}
+.contato .container-conteudo .newsletter-form {
+padding-top: 30px;
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: center;
+}
+.contato .container-conteudo .newsletter-form input{
+width: 234px;
+height: 42px;
+background: var(--cor-11);
+border: none;
+}
+.contato .container-conteudo .newsletter-form input + input{
+margin: 27px;
+}
+.contato .container-conteudo .newsletter-form .placeholder{
+background: var(--cor-8);
+}
+.contato .container-conteudo .newsletter-form .nome {
+background-image: url(../media/svg/nome.svg);
+background-position: center;
+background-size: 100%;
+background-repeat: no-repeat;
+text-transform: uppercase;
+padding-left: 20px;
+width: 234px;
+height: 42px;
+}
+.contato .container-conteudo .newsletter-form .telefone {
+background-image: url(../media/svg/nome.svg);
+background-position: center;
+background-size: 100%;
+background-repeat: no-repeat;
+text-transform: uppercase;
+padding-left: 20px;
+width: 234px;
+height: 42px;
+}
+.contato .container-conteudo .item-contato {
+margin-top: 0px;
+width: 234px;
+height: 42px;
+background: var(--cor-p3);
+clip-path: polygon(0 0, 87% 0, 100% 38%, 100% 100%, 0 100%, 0% 50%);
+text-transform: uppercase;
+}
+.contato .container-conteudo  a{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-wrap: wrap;
+padding-left: 20px;
+width: 234px;
+height: 42px;
+}
+.contato .imagem-contato {
+margin-top: -108px;
+z-index: 3;
+}
+@media (max-width: 1315px) {
+.contato {
+grid-template-columns: 1fr;
+}
+.contato .imagem-contato {
+display: none;
+}
+}
+@media (max-width: 600px) {
+.contato .container-conteudo h1 {
+font: 400 3.25rem/0.83 "Bebas Neue", sans-serif;
+text-align: center;
+}
+.contato .container-conteudo p {
+font: 400 0.9rem/0.83 "Montserrat", sans-serif;
+text-align: center;
+}
+.contato .container-conteudo .newsletter-form input + input{
+margin: 10px;
+}
+.contato .container-conteudo .newsletter-form input{
+margin: 10px;
+}
+.contato .container-conteudo .item-contato{
+margin: 10px;
+}
+}

@@ -1,0 +1,22 @@
+/* Backgraund */
+.bg {
+  height: 173px;
+  background: var(--cor-p1);
+}
+
+/* Footer */
+.footer-bg {
+  background: var(--cor-13);
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+.footer p {
+  text-transform: uppercase;
+}
+.footer span {
+  padding: 8px;
+}
