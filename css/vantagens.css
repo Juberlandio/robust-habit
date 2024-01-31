@@ -5,7 +5,6 @@ background: var(--cor-p1);
 display: grid;
 grid-template-columns: 1fr 2fr;
 gap: 30px;
-height: 686px;
 }
 .vantagens .imagem {
 padding-top: 135.90px;

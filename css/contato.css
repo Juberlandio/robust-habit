@@ -71,7 +71,6 @@ padding-left: 20px;
 width: 234px;
 height: 42px;
 }
-
 .contato .imagem-contato {
 width: 440px;
 height: 617px;
@@ -92,7 +91,7 @@ font: 400 3.25rem/0.83 "Bebas Neue", sans-serif;
 text-align: center;
 }
 .contato .container-conteudo p {
-font: 400 0.9rem/0.83 "Montserrat", sans-serif;
+font: 400 0.9rem/1.3 "Montserrat", sans-serif;
 text-align: center;
 }
 .contato .container-conteudo .newsletter-form input + input{

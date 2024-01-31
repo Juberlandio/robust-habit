@@ -10,12 +10,14 @@
 }
 .footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   height: 80px;
 }
 .footer p {
   text-transform: uppercase;
+  text-align: center;
 }
 .footer span {
   padding: 8px;
