@@ -7,8 +7,8 @@
     <title>Academia</title>
     <meta name="description" content="Desenvolvedor Front End e UX/UI Designer">
     <link rel="icon" href="./media/svg/favicon.svg" type="image/svg+x">
-    <link rel="preload" href="./css/style.css" as="style">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preload" href="./css/style.min.css" as="style">
+    <link rel="stylesheet" href="./css/style.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,16 +24,16 @@
             </div>
             <ul class="menu">
                 <li class="menu-item">
-                    <a href="https://www.linkedin.com/in/juberlandiooliveira/" target="_blank">SOBRE</a>
+                    <a href="#sobre">SOBRE</a>
                 </li>
                 <li class="menu-item">
-                    <a href="https://www.linkedin.com/in/juberlandiooliveira/" target="_blank">SERVIÇOS</a>
+                    <a href="#servicos">SERVIÇOS</a>
                 </li>
                 <li class="menu-item">
-                    <a href="https://www.linkedin.com/in/juberlandiooliveira/" target="_blank">PREÇOS</a>
+                    <a href="#precos">PREÇOS</a>
                 </li>
                 <LI class="menu-item">
-                    <a href="https://www.linkedin.com/in/juberlandiooliveira/" target="_blank">CONTATOS</a>
+                    <a href="#contato">CONTATOS</a>
                 </LI>
                 <li class="menu-item">
                     <a href="https://www.linkedin.com/in/juberlandiooliveira/" target="_blank">REGISTRE-SE</a>
@@ -52,16 +52,16 @@
         </nav>
         <ul id="menu-items" class="menu-items cor-0 font-1-b">
             <li class="menu-item">
-                <a onclick="abrir()" href="https://www.linkedin.com/in/juberlandiooliveira/" target="_blank">SOBRE</a>
+                <a onclick="abrir()" href="#sobre">SOBRE</a>
             </li>
             <li class="menu-item">
-                <a onclick="abrir()" href="https://www.linkedin.com/in/juberlandiooliveira/" target="_blank">SERVIÇOS</a>
+                <a onclick="abrir()" href="#servicos">SERVIÇOS</a>
             </li>
             <li class="menu-item">
-                <a onclick="abrir()" href="https://www.linkedin.com/in/juberlandiooliveira/" target="_blank">PREÇOS</a>
+                <a onclick="abrir()" href="#precos">PREÇOS</a>
             </li>
             <LI class="menu-item">
-                <a onclick="abrir()" href="https://www.linkedin.com/in/juberlandiooliveira/" target="_blank">CONTATO</a>
+                <a onclick="abrir()" href="#contato">CONTATO</a>
             </LI>
             <li class="menu-item">
                 <a onclick="abrir()" href="https://www.linkedin.com/in/juberlandiooliveira/" target="_blank">REGISTRE-SE</a>
@@ -70,7 +70,7 @@
     </header>
 
     <main>
-        <section class="introducao-bg box-border">
+        <section class="introducao-bg box-border" id="sobre">
             <div class="introducao container container-border">
                 <div class="informacao">
                     <h1 class="font-2-xl cor-0">AQUI NÃO SE <br> <span class="font-1-xxl">TREINA FOFO</span></h1>
@@ -103,7 +103,7 @@
             </div>
         </div>
         <article>
-            <div class="diferenciais-bg">
+            <div class="diferenciais-bg" id="servicos">
                 <div class="titulo-diferenciais">
                     <h1 class="font-2-l cor-0">Nossos <span class="font-1-l">Diferenciais</span></h1>
                 </div>
@@ -153,7 +153,7 @@
                 </div>
             </div>
         </article>
-        <section class="planos-bg">
+        <section class="planos-bg" id="precos">
             <div class="titulo-planos">
                 <h1 class="font-1-l-b cor-0">nossos planos</h1>
             </div>
@@ -237,7 +237,7 @@
                 </div>
             </div>
         </section>
-    <section class="contato-bg">
+    <section class="contato-bg" id="contato">
         <div class="contato container">
             <div class="container-conteudo">
                 <h1 class="font-1-l-b cor-0">Entre em Contato</h1>
