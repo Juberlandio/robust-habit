@@ -31,7 +31,13 @@ margin-top: 30px;
 width: 200px;
 height: 56px;
 clip-path: polygon(0 0, 84% 0, 100% 38%, 100% 100%, 0 100%, 0% 50%);
+transition: 0.3s;
 }
+.item-introducao-diferenciais:hover{
+  opacity: 1;
+  background-color: var(--cor-p2);
+  transform: scale(1.1);
+  }
 .item-introducao-diferenciais a {
 display: flex;
 flex-wrap: nowrap;

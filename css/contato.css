@@ -61,7 +61,13 @@ height: 42px;
 background: var(--cor-p3);
 clip-path: polygon(0 0, 87% 0, 100% 38%, 100% 100%, 0 100%, 0% 50%);
 text-transform: uppercase;
+transition: 0.3s;
 }
+.contato .container-conteudo .item-contato:hover{
+  opacity: 1;
+  background-color: var(--cor-p2);
+  transform: scale(1.1);
+  }
 .contato .container-conteudo  a{
 display: flex;
 justify-content: flex-start;

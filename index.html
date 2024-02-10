@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academia</title>
     <meta name="description" content="Desenvolvedor Front End e UX/UI Designer">
-    <link rel="icon" href="./media/svg/favicon.svg" type="image/svg+x">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
     <link rel="preload" href="./css/style.min.css" as="style">
     <link rel="stylesheet" href="./css/style.min.css">
 
@@ -18,8 +18,8 @@
 
 <body>
     <header class="topo">
-        <nav class="nav-bar js-menu container cor-0 font-1-b">
-            <div class="container-logo">
+        <nav class="nav-bar container cor-0 font-1-b" data-menu="suave">
+            <div class="logo">
                 <img src="media/img/logo.png" alt="Logo Robust Habit">
             </div>
             <ul class="menu">
@@ -41,7 +41,7 @@
             </ul>
         </nav>
         <nav class="mobile-navbar container">
-            <div class="container-logo">
+            <div class="logo">
                 <img src="media/img/logo.png" alt="Logo Robust Habit">
             </div>
             <div id="menu-oculto" class="mobile-menu" onclick="abrir()">
@@ -50,7 +50,7 @@
                 <!-- <div class="terceiro"></div> -->
             </div>
         </nav>
-        <ul id="menu-items" class="menu-items js-menu cor-0 font-1-b">
+        <ul id="menu-items" class="menu-items cor-0 font-1-b" data-menu="suave">
             <li class="menu-item">
                 <a onclick="abrir()" href="#sobre">SOBRE</a>
             </li>
@@ -262,7 +262,8 @@
         <a href="https://www.linkedin.com/in/juberlandiooliveira/" target="_blank"><p class="font-3-m cor-0">Desenvolvido por<wbr><span class="cor-p1">Juberlandio</span></p></a>
     </div>
 </footer>
-    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
+    <script type="module" src="js/script.js"></script>
 </body>
 
 </html>

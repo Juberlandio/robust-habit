@@ -52,7 +52,6 @@ opacity: 1;
 background-color: #A03333;
 transform: scale(1.1);
 }
-
 @media (max-width: 768px){
 .aberto{
 display: flex;
