@@ -35,7 +35,7 @@ margin: 27px;
 background: var(--cor-8);
 }
 .contato .container-conteudo .newsletter-form .nome {
-background-image: url(../media/svg/nome.svg);
+background-image: url('../media/svg/nome.svg');
 background-position: center;
 background-size: 100%;
 background-repeat: no-repeat;
@@ -45,7 +45,7 @@ width: 234px;
 height: 42px;
 }
 .contato .container-conteudo .newsletter-form .telefone {
-background-image: url(../media/svg/nome.svg);
+background-image: url('../media/svg/nome.svg');
 background-position: center;
 background-size: 100%;
 background-repeat: no-repeat;
