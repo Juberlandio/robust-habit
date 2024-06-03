@@ -19,6 +19,7 @@
 .planos img {
   width: 398px;
   height: 168px;
+  object-fit: cover;
 }
 .planos h2 {
   display: flex;

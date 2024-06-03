@@ -63,11 +63,17 @@ clip-path: polygon(0 0, 87% 0, 100% 38%, 100% 100%, 0 100%, 0% 50%);
 text-transform: uppercase;
 transition: 0.3s;
 }
+form input[type="text"]:focus,
+form input[type="number"]:focus {
+outline: none;
+background: #ffffff;
+box-shadow: 0 0 0 2px #ffffff;
+}
 .contato .container-conteudo .item-contato:hover{
-  opacity: 1;
-  background-color: var(--cor-p2);
-  transform: scale(1.1);
-  }
+opacity: 1;
+background-color: var(--cor-p2);
+transform: scale(1.1);
+}
 .contato .container-conteudo  a{
 display: flex;
 justify-content: flex-start;
@@ -97,7 +103,7 @@ font: 400 3.25rem/0.83 "Bebas Neue", sans-serif;
 text-align: center;
 }
 .contato .container-conteudo p {
-font: 400 0.9rem/1.3 "Montserrat", sans-serif;
+font: 400 0.9rem/1.5 "Montserrat", sans-serif;
 text-align: center;
 }
 .contato .container-conteudo .newsletter-form input + input{
